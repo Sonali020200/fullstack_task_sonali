@@ -1,4 +1,4 @@
-export const deployedLink = import.meta.env.DEPLOYED_LINK;
+export const deployedLink = "https://kazamsoftware.onrender.com";
 export async function fetchNotesAPI(page: any) {
   try {
     const res = await fetch(

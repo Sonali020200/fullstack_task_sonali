@@ -39,3 +39,61 @@ https://fullstack-task-sonali.vercel.app/
 ---
 
 
+## ⚙️ Setup Instructions
+
+### 📦 Prerequisites
+
+- Node.js (v16+ recommended)
+- npm or yarn
+- Redis server
+- MongoDB Atlas or local MongoDB
+
+---
+
+### 🔧 Backend Setup
+
+**1. Navigate to backend:**
+
+```bash
+cd backend
+```
+**2. Install dependencies:**
+
+```bash
+npm install
+```
+**3. Create .env:**
+
+PORT: '8000'
+REDISPORT: '12675'
+MONGO_URL: "your_mongodb_connection_string"
+TASK_KEY:"your-key"
+RED_URL:"your-redis-connection-string"
+
+**4. Run the server:**
+
+```bash
+npm run dev
+```
+### 💻 Frontend Setup
+
+**1. Navigate to frontend:**
+
+```bash
+cd frontend
+```
+**2. Install dependencies:**
+
+```bash
+npm install
+```
+**3. Start the frontend:**
+
+```bash
+npm run dev
+```
+
+👩‍💻 Author
+Sonali Burman
+Full Stack Developer (MERN)
+sonali.b.020200@gmail.com

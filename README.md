@@ -48,7 +48,6 @@ https://fullstack-task-sonali.vercel.app/
 - Redis server
 - MongoDB Atlas or local MongoDB
 
----
 
 ### 🔧 Backend Setup
 
@@ -93,7 +92,11 @@ npm install
 npm run dev
 ```
 
+---
+
 👩‍💻 Author
 Sonali Burman
 Full Stack Developer (MERN)
 sonali.b.020200@gmail.com
+
+---

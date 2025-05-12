@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 import ArticleIcon from '@mui/icons-material/Article';
 import "./App.css";
 
@@ -49,6 +52,7 @@ function App() {
       setNewNote("");
       const newNoteObj = { content: newNote, createdAt: Date.now() };
       setNotes((prev) => [newNoteObj, ...prev]);
+      toast.success("Note added successfully!");
     }
   };
 
@@ -95,7 +99,8 @@ function App() {
   return (
     <div className="w-full bg-white absolute top-0 bottom-0 sm:bottom-0 left-0 right-0 flex items-center justify-center">
       <div className="lg:w-[30vw] sm:w-[80%] p-2 mx-auto rounded-lg shadow-md overflow-hidden">
-       
+       <ToastContainer position="top-center" autoClose={2000} hideProgressBar={false} />
+
         <div className="flex items-center gap-2">
     <ArticleIcon sx={{ color: 'rgb(138, 75, 56)', fontSize: '2rem' }} />
     <h1 className="text-[#1F2937] text-xl sm:text-2xl md:text-3xl font-bold">Note App</h1>

@@ -94,9 +94,8 @@ npm run dev
 
 ---
 
-👩‍💻 Author
-Sonali Burman
+## 👩‍💻 Author
+**Sonali Burman**
 Full Stack Developer (MERN)
 sonali.b.020200@gmail.com
 
----
